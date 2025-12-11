@@ -1,3 +1,4 @@
+import 'package:bic/auth/login/login.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -52,7 +53,7 @@ class _LandingState extends State<Landing> {
                 onTap: () {
                   Navigator.of(context).pushReplacement(
                     CupertinoPageRoute(
-                      builder: (_) => null!,
+                      builder: (_) => Login(),
                     ),
                   );
                 },
